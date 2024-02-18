@@ -7,9 +7,6 @@ app = Flask(__name__)
 
 
 @app.route('/', strict_slashes=False)
-""" function that prints a scring"""
-
-
 def hello_hbnb():
     return "Hello HBNB"
 
