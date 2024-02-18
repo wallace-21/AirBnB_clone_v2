@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 """ import flask module"""
-from flask import Flask, escape
+from flask import Flask
 
 app = Flask(__name__)
 """create an instance of flask"""
