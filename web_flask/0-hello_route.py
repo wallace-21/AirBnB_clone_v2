@@ -4,10 +4,12 @@
 from flask import Flask
 
 app = Flask(__name__)
+"""create an instance of flask"""
 
 
 @app.route('/', strict_slashes=False)
 def hello_hbnb():
+    """ function that prints a string"""
     return "Hello HBNB"
 
 
