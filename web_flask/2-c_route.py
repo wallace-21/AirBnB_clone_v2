@@ -2,8 +2,6 @@
 
 """ import flask module"""
 from flask import Flask
-from flask import escape
-
 
 """create an instance of flask"""
 
