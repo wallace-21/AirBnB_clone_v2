@@ -5,9 +5,9 @@ from flask import Flask
 
 app = Flask(__name__)
 
-"""function that prints a string"""
 
 @app.route('/', strict_slashes=False)
+""" function that prints a scring"""
 
 
 def hello_hbnb():
