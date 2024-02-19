@@ -47,7 +47,8 @@ def number_odd_or_even(n):
     """function thaat print even or od"""
     if isintance(n, int):
         even_or_odd = "even" if n % 2 == 0 else "odd"
-        return render_template('6-number_odd_or_even.html', n=n, even_or_odd=even_or_odd)
+        return render_template('6-number_odd_or_even.html',
+                               n=n, even_or_odd=even_or_odd)
 
 
 if __name__ == '__main__':
