@@ -38,11 +38,13 @@ def is_it_a_number(n):
 
 @app.route('/number_template/<int:n>', strict_slashes=False)
 def number_template(n):
+    """funcion that prints numbers"""
     return render_template('5-number.html', n=n)
 
 
 @app.route('/number_odd_or_even/<int:n>', strict_slashes=False)
 def number_odd_or_even(n):
+    """function thaat print even or od"""
     return render_template('6-number_odd_or_even.html', n=n)
 
 
